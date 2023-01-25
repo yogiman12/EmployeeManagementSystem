@@ -30,14 +30,11 @@ namespace E.M.S
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Department));
             this.button1 = new System.Windows.Forms.Button();
-            this.gunaDateTimePicker2 = new Guna.UI.WinForms.GunaDateTimePicker();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -57,49 +54,16 @@ namespace E.M.S
             this.button1.Text = " Add";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // gunaDateTimePicker2
-            // 
-            this.gunaDateTimePicker2.BaseColor = System.Drawing.Color.White;
-            this.gunaDateTimePicker2.BorderColor = System.Drawing.Color.Silver;
-            this.gunaDateTimePicker2.CustomFormat = null;
-            this.gunaDateTimePicker2.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.gunaDateTimePicker2.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaDateTimePicker2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaDateTimePicker2.ForeColor = System.Drawing.Color.Black;
-            this.gunaDateTimePicker2.Location = new System.Drawing.Point(41, 845);
-            this.gunaDateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.gunaDateTimePicker2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.gunaDateTimePicker2.Name = "gunaDateTimePicker2";
-            this.gunaDateTimePicker2.OnHoverBaseColor = System.Drawing.Color.White;
-            this.gunaDateTimePicker2.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaDateTimePicker2.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaDateTimePicker2.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaDateTimePicker2.Size = new System.Drawing.Size(223, 30);
-            this.gunaDateTimePicker2.TabIndex = 40;
-            this.gunaDateTimePicker2.Text = "Wednesday, January 25, 2023";
-            this.gunaDateTimePicker2.Value = new System.DateTime(2023, 1, 25, 10, 51, 49, 27);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(78, 191);
+            this.pictureBox1.Location = new System.Drawing.Point(78, 227);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(141, 98);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 36;
             this.pictureBox1.TabStop = false;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.label8.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label8.Location = new System.Drawing.Point(38, 897);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(237, 28);
-            this.label8.TabIndex = 35;
-            this.label8.Text = "Employee daily Salary";
             // 
             // label3
             // 
@@ -110,8 +74,10 @@ namespace E.M.S
             this.label3.Location = new System.Drawing.Point(42, 354);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(177, 28);
+            this.label3.Size = new System.Drawing.Size(201, 28);
             this.label3.TabIndex = 29;
             this.label3.Text = "Employee Name";
+            this.label3.Text = "Department Name";
             // 
             // textBox1
             // 
@@ -141,18 +107,6 @@ namespace E.M.S
             this.label1.Size = new System.Drawing.Size(543, 36);
             this.label1.TabIndex = 0;
             this.label1.Text = "Employee Management System Version 1.0";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.label7.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label7.Location = new System.Drawing.Point(38, 790);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(110, 28);
-            this.label7.TabIndex = 33;
-            this.label7.Text = "Join Date";
             // 
             // panel1
             // 
@@ -186,13 +140,10 @@ namespace E.M.S
             this.ClientSize = new System.Drawing.Size(1412, 1055);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.gunaDateTimePicker2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -211,14 +162,11 @@ namespace E.M.S
 
         #endregion
         private System.Windows.Forms.Button button1;
-        private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button2;
     }
