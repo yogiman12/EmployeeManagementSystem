@@ -120,6 +120,7 @@ namespace E.M.S
             this.label5.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label5.Location = new System.Drawing.Point(37, 570);
+            this.label5.Location = new System.Drawing.Point(35, 564);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(241, 28);
             this.label5.TabIndex = 11;
