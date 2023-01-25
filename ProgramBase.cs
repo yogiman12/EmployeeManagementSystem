@@ -14,6 +14,7 @@ namespace EmplyeeManagement
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new EmplyeeManagement());
+            Application.Run(new EmplyeeManagement2());
         }
     }
 }

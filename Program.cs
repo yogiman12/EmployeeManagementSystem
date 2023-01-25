@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing.Imaging;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace E.M.S
 namespace EmplyeeManagement
 {
-    internal static class Program
     static class Program
     {
         /// <summary>
@@ -18,7 +17,6 @@ namespace EmplyeeManagement
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new login());
             Application.Run(new EmplyeeManagement());
         }
     }
