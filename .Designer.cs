@@ -110,8 +110,10 @@ namespace E.M.S
             this.label4.Location = new System.Drawing.Point(39, 455);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(189, 28);
+            this.label4.Size = new System.Drawing.Size(202, 28);
             this.label4.TabIndex = 9;
             this.label4.Text = "Employe Gender ";
+            this.label4.Text = "Employee Gender ";
             // 
             // label5
             // 
