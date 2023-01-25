@@ -56,7 +56,6 @@ namespace E.M.S
             this.panel1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.panel1.Location = new System.Drawing.Point(-20, -9);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1447, 180);
             this.panel1.Size = new System.Drawing.Size(1447, 147);
             this.panel1.TabIndex = 0;
             // 
@@ -77,6 +76,7 @@ namespace E.M.S
             this.label2.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label2.Location = new System.Drawing.Point(577, 199);
+            this.label2.Location = new System.Drawing.Point(566, 150);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(239, 36);
             this.label2.TabIndex = 1;
