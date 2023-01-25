@@ -77,8 +77,10 @@ namespace E.M.S
             this.label3.Location = new System.Drawing.Point(51, 333);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(124, 28);
+            this.label3.Size = new System.Drawing.Size(177, 28);
             this.label3.TabIndex = 7;
             this.label3.Text = "User Name";
+            this.label3.Text = "Employee Name";
             // 
             // textBox1
             // 
