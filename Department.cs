@@ -16,5 +16,15 @@ namespace E.M.S
         {
             InitializeComponent();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Department_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -48,6 +48,7 @@ namespace E.M.S
             this.label1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -166,6 +167,7 @@ namespace E.M.S
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(90, 240);
+            this.pictureBox1.Location = new System.Drawing.Point(78, 191);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(141, 98);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -252,11 +254,10 @@ namespace E.M.S
             this.label2.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label2.Location = new System.Drawing.Point(569, 164);
+            this.label2.Location = new System.Drawing.Point(566, 146);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(239, 36);
             this.label2.Size = new System.Drawing.Size(267, 36);
             this.label2.TabIndex = 26;
-            this.label2.Text = "Manage Employee";
             this.label2.Text = "Manage Department";
             // 
             // label1
@@ -288,9 +289,25 @@ namespace E.M.S
             this.panel1.Controls.Add(this.label1);
             this.panel1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.panel1.Location = new System.Drawing.Point(-17, 5);
+            this.panel1.Location = new System.Drawing.Point(-17, -21);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1447, 147);
+            this.panel1.Size = new System.Drawing.Size(1447, 164);
             this.panel1.TabIndex = 25;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.button2.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.button2.Location = new System.Drawing.Point(183, 1003);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 3, 3, 10);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(92, 47);
+            this.button2.TabIndex = 42;
+            this.button2.Text = "Update";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // Department
             // 
@@ -322,6 +339,7 @@ namespace E.M.S
             this.Name = "Department";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Department";
+            this.Load += new System.EventHandler(this.Department_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -351,5 +369,6 @@ namespace E.M.S
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button2;
     }
 }
