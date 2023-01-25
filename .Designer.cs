@@ -109,10 +109,8 @@ namespace E.M.S
             this.label4.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label4.Location = new System.Drawing.Point(39, 455);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(189, 28);
             this.label4.Size = new System.Drawing.Size(202, 28);
             this.label4.TabIndex = 9;
-            this.label4.Text = "Employe Gender ";
             this.label4.Text = "Employee Gender ";
             // 
             // label5
@@ -207,6 +205,7 @@ namespace E.M.S
             this.comboBox1.Location = new System.Drawing.Point(44, 504);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(160, 36);
+            this.comboBox1.Size = new System.Drawing.Size(290, 36);
             this.comboBox1.TabIndex = 19;
             // 
             // Form1
