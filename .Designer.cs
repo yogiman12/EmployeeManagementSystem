@@ -273,7 +273,6 @@ namespace E.M.S
             this.button1.Location = new System.Drawing.Point(44, 989);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 3, 3, 10);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 47);
             this.button1.Size = new System.Drawing.Size(101, 47);
             this.button1.TabIndex = 23;
             this.button1.Text = " Add";
@@ -285,11 +284,13 @@ namespace E.M.S
             this.button2.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.Highlight;
             this.button2.Location = new System.Drawing.Point(169, 989);
+            this.button2.Location = new System.Drawing.Point(180, 989);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 3, 3, 10);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(92, 47);
             this.button2.TabIndex = 24;
             this.button2.Text = "Login";
+            this.button2.Text = "Update";
             this.button2.UseVisualStyleBackColor = false;
             // 
             // Form1
