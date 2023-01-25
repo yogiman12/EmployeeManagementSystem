@@ -41,6 +41,7 @@
             this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "Salary";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Salary";
             this.ResumeLayout(false);
 
