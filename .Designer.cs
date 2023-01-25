@@ -45,6 +45,7 @@ namespace E.M.S
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.gunaComboBox1 = new Guna.UI.WinForms.GunaComboBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -119,7 +120,6 @@ namespace E.M.S
             this.label5.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label5.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label5.Location = new System.Drawing.Point(37, 570);
             this.label5.Location = new System.Drawing.Point(35, 564);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(241, 28);
@@ -215,12 +215,31 @@ namespace E.M.S
             this.comboBox2.Size = new System.Drawing.Size(290, 36);
             this.comboBox2.TabIndex = 20;
             // 
+            // gunaComboBox1
+            // 
+            this.gunaComboBox1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaComboBox1.BaseColor = System.Drawing.Color.White;
+            this.gunaComboBox1.BorderColor = System.Drawing.Color.Silver;
+            this.gunaComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.gunaComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.gunaComboBox1.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.gunaComboBox1.ForeColor = System.Drawing.Color.Black;
+            this.gunaComboBox1.FormattingEnabled = true;
+            this.gunaComboBox1.Location = new System.Drawing.Point(431, 701);
+            this.gunaComboBox1.Name = "gunaComboBox1";
+            this.gunaComboBox1.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaComboBox1.OnHoverItemForeColor = System.Drawing.Color.White;
+            this.gunaComboBox1.Size = new System.Drawing.Size(493, 31);
+            this.gunaComboBox1.TabIndex = 1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1412, 1055);
+            this.Controls.Add(this.gunaComboBox1);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.pictureBox1);
@@ -268,5 +287,6 @@ namespace E.M.S
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
+        private Guna.UI.WinForms.GunaComboBox gunaComboBox1;
     }
 }
