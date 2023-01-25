@@ -47,6 +47,7 @@ namespace E.M.S
             this.gunaDateTimePicker1 = new Guna.UI.WinForms.GunaDateTimePicker();
             this.gunaDateTimePicker2 = new Guna.UI.WinForms.GunaDateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -273,10 +274,23 @@ namespace E.M.S
             this.button1.Margin = new System.Windows.Forms.Padding(3, 3, 3, 10);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(129, 47);
+            this.button1.Size = new System.Drawing.Size(101, 47);
             this.button1.TabIndex = 23;
-            this.button1.Text = "add";
             this.button1.Text = " Add";
             this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.button2.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.button2.Location = new System.Drawing.Point(169, 989);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 3, 3, 10);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(92, 47);
+            this.button2.TabIndex = 24;
+            this.button2.Text = "Login";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -284,6 +298,7 @@ namespace E.M.S
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1412, 1055);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.gunaDateTimePicker2);
             this.Controls.Add(this.gunaDateTimePicker1);
@@ -335,5 +350,6 @@ namespace E.M.S
         private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker1;
         private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
