@@ -180,7 +180,6 @@ namespace E.M.S
             this.label8.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label8.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label8.Location = new System.Drawing.Point(43, 940);
             this.label8.Location = new System.Drawing.Point(35, 883);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(177, 28);
@@ -189,7 +188,6 @@ namespace E.M.S
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(46, 985);
             this.textBox6.Location = new System.Drawing.Point(38, 928);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(292, 34);
@@ -200,6 +198,8 @@ namespace E.M.S
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1412, 1102);
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ClientSize = new System.Drawing.Size(1412, 1055);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label7);
@@ -217,6 +217,7 @@ namespace E.M.S
             this.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
