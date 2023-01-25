@@ -1,4 +1,4 @@
-﻿﻿namespace E.M.S
+﻿namespace E.M.S
 {
     partial class login
     {
@@ -35,7 +35,7 @@
             this.panel1.ForeColor = System.Drawing.Color.Black;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(254, 491);
+            this.panel1.Size = new System.Drawing.Size(310, 491);
             this.panel1.TabIndex = 0;
             // 
             // login
