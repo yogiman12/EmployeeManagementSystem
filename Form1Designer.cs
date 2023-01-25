@@ -39,6 +39,8 @@ namespace E.M.S
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -150,11 +152,32 @@ namespace E.M.S
             this.textBox4.Size = new System.Drawing.Size(292, 34);
             this.textBox4.TabIndex = 12;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.label7.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label7.Location = new System.Drawing.Point(45, 814);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(177, 28);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Employee Name";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(48, 859);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(292, 34);
+            this.textBox5.TabIndex = 14;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1412, 976);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label5);
@@ -191,5 +214,7 @@ namespace E.M.S
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBox5;
     }
 }
