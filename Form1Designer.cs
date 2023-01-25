@@ -57,6 +57,7 @@ namespace E.M.S
             this.panel1.Location = new System.Drawing.Point(-20, -9);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1447, 180);
+            this.panel1.Size = new System.Drawing.Size(1447, 147);
             this.panel1.TabIndex = 0;
             // 
             // label1
