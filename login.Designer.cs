@@ -79,7 +79,6 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(376, 263);
             this.textBox1.Location = new System.Drawing.Point(375, 266);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(292, 28);
@@ -100,7 +99,6 @@
             this.label1.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label1.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(370, 221);
             this.label1.Location = new System.Drawing.Point(372, 221);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(124, 28);
@@ -177,6 +175,7 @@
             this.Name = "login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "login";
+            this.Load += new System.EventHandler(this.login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
