@@ -1,4 +1,4 @@
-﻿namespace E.M.S
+﻿﻿namespace E.M.S
 {
     partial class login
     {
@@ -25,7 +25,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.panel1.ForeColor = System.Drawing.Color.Black;
+            this.panel1.Location = new System.Drawing.Point(128, 65);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(355, 179);
+            this.panel1.TabIndex = 0;
             // 
             // login
             // 
@@ -33,6 +43,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(856, 491);
+            this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -42,5 +53,6 @@
             this.ResumeLayout(false);
         }
         #endregion
+        private System.Windows.Forms.Panel panel1;
     }
 }
