@@ -37,8 +37,8 @@ namespace E.M.S
             this.panel1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.panel1.Location = new System.Drawing.Point(-20, -9);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1429, 240);
             this.panel1.Size = new System.Drawing.Size(1447, 240);
+            this.panel1.Size = new System.Drawing.Size(1447, 224);
             this.panel1.TabIndex = 0;
             // 
             // Form1
@@ -46,6 +46,7 @@ namespace E.M.S
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1412, 798);
+            this.ClientSize = new System.Drawing.Size(1412, 850);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
