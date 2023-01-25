@@ -251,6 +251,7 @@ namespace E.M.S
             this.gunaDateTimePicker2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaDateTimePicker2.ForeColor = System.Drawing.Color.Black;
             this.gunaDateTimePicker2.Location = new System.Drawing.Point(228, 774);
+            this.gunaDateTimePicker2.Location = new System.Drawing.Point(38, 831);
             this.gunaDateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.gunaDateTimePicker2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.gunaDateTimePicker2.Name = "gunaDateTimePicker2";
