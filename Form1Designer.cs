@@ -106,9 +106,11 @@ namespace E.M.S
             this.label4.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label4.Location = new System.Drawing.Point(41, 410);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(177, 28);
+            this.label4.Size = new System.Drawing.Size(182, 28);
+            this.label4.Size = new System.Drawing.Size(189, 28);
             this.label4.TabIndex = 9;
-            this.label4.Text = "Employee Name";
+            this.label4.Text = "EmployeGender ";
+            this.label4.Text = "Employe Gender ";
             // 
             // textBox2
             // 
@@ -197,7 +199,6 @@ namespace E.M.S
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1412, 1102);
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1412, 1055);
             this.Controls.Add(this.label8);
@@ -216,7 +217,6 @@ namespace E.M.S
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Form1";
             this.Text = "Form1";
