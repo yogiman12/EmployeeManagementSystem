@@ -42,20 +42,19 @@ namespace E.M.S
             this.panel1.Location = new System.Drawing.Point(-20, -9);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1447, 224);
+            this.panel1.Size = new System.Drawing.Size(1447, 200);
             this.panel1.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(466, 54);
             this.label1.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(525, 87);
+            this.label1.Location = new System.Drawing.Point(477, 68);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 28);
             this.label1.Size = new System.Drawing.Size(543, 36);
             this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
             this.label1.Text = "Employee Management System Version 1.0";
             // 
             // label2
@@ -64,6 +63,7 @@ namespace E.M.S
             this.label2.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label2.Location = new System.Drawing.Point(435, 407);
+            this.label2.Location = new System.Drawing.Point(627, 213);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(239, 36);
             this.label2.TabIndex = 1;
