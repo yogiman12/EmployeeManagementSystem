@@ -46,6 +46,7 @@ namespace E.M.S
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.gunaComboBox1 = new Guna.UI.WinForms.GunaComboBox();
+            this.gunaDateTimePicker1 = new Guna.UI.WinForms.GunaDateTimePicker();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -233,12 +234,35 @@ namespace E.M.S
             this.gunaComboBox1.Size = new System.Drawing.Size(493, 31);
             this.gunaComboBox1.TabIndex = 1;
             // 
+            // gunaDateTimePicker1
+            // 
+            this.gunaDateTimePicker1.BaseColor = System.Drawing.Color.White;
+            this.gunaDateTimePicker1.BorderColor = System.Drawing.Color.Silver;
+            this.gunaDateTimePicker1.CustomFormat = null;
+            this.gunaDateTimePicker1.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.gunaDateTimePicker1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaDateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaDateTimePicker1.ForeColor = System.Drawing.Color.Black;
+            this.gunaDateTimePicker1.Location = new System.Drawing.Point(228, 762);
+            this.gunaDateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.gunaDateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.gunaDateTimePicker1.Name = "gunaDateTimePicker1";
+            this.gunaDateTimePicker1.OnHoverBaseColor = System.Drawing.Color.White;
+            this.gunaDateTimePicker1.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaDateTimePicker1.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaDateTimePicker1.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaDateTimePicker1.Size = new System.Drawing.Size(223, 30);
+            this.gunaDateTimePicker1.TabIndex = 21;
+            this.gunaDateTimePicker1.Text = "Wednesday, January 25, 2023";
+            this.gunaDateTimePicker1.Value = new System.DateTime(2023, 1, 25, 10, 51, 49, 27);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1412, 1055);
+            this.Controls.Add(this.gunaDateTimePicker1);
             this.Controls.Add(this.gunaComboBox1);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
@@ -288,5 +312,6 @@ namespace E.M.S
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
         private Guna.UI.WinForms.GunaComboBox gunaComboBox1;
+        private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker1;
     }
 }
