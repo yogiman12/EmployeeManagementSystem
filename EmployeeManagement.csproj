@@ -8,6 +8,8 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>E.M.S</RootNamespace>
     <AssemblyName>E.M.S</AssemblyName>
+    <RootNamespace>EmployeeManagement</RootNamespace>
+    <AssemblyName>EmployeeManagement</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -73,6 +75,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="ProgramBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Department.resx">
+      <DependentUpon>Department.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EmployeeManagement2.resx">
       <DependentUpon>EmployeeManagement2.cs</DependentUpon>
     </EmbeddedResource>
@@ -87,6 +92,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
