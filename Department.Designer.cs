@@ -47,7 +47,6 @@ namespace E.M.S
             this.button1.BackColor = System.Drawing.SystemColors.HighlightText;
             this.button1.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.button1.Location = new System.Drawing.Point(47, 1003);
             this.button1.Location = new System.Drawing.Point(62, 525);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 3, 3, 10);
             this.button1.Name = "button1";
@@ -123,7 +122,6 @@ namespace E.M.S
             this.button2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.button2.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.button2.Location = new System.Drawing.Point(183, 1003);
             this.button2.Location = new System.Drawing.Point(198, 525);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 3, 3, 10);
             this.button2.Name = "button2";
@@ -139,6 +137,7 @@ namespace E.M.S
             this.label4.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label4.Location = new System.Drawing.Point(606, 513);
+            this.label4.Location = new System.Drawing.Point(733, 354);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(179, 28);
             this.label4.TabIndex = 43;
