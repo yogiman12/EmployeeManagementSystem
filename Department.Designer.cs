@@ -31,7 +31,6 @@ namespace E.M.S
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Department));
             this.button1 = new System.Windows.Forms.Button();
             this.gunaDateTimePicker2 = new Guna.UI.WinForms.GunaDateTimePicker();
-            this.gunaComboBox1 = new Guna.UI.WinForms.GunaComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -79,24 +78,6 @@ namespace E.M.S
             this.gunaDateTimePicker2.TabIndex = 40;
             this.gunaDateTimePicker2.Text = "Wednesday, January 25, 2023";
             this.gunaDateTimePicker2.Value = new System.DateTime(2023, 1, 25, 10, 51, 49, 27);
-            // 
-            // gunaComboBox1
-            // 
-            this.gunaComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaComboBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaComboBox1.BorderColor = System.Drawing.Color.Silver;
-            this.gunaComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.gunaComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.gunaComboBox1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.gunaComboBox1.ForeColor = System.Drawing.Color.Black;
-            this.gunaComboBox1.FormattingEnabled = true;
-            this.gunaComboBox1.Location = new System.Drawing.Point(434, 715);
-            this.gunaComboBox1.Name = "gunaComboBox1";
-            this.gunaComboBox1.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaComboBox1.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.gunaComboBox1.Size = new System.Drawing.Size(493, 31);
-            this.gunaComboBox1.TabIndex = 27;
             // 
             // pictureBox1
             // 
@@ -206,7 +187,6 @@ namespace E.M.S
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.gunaDateTimePicker2);
-            this.Controls.Add(this.gunaComboBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label3);
@@ -232,7 +212,6 @@ namespace E.M.S
         #endregion
         private System.Windows.Forms.Button button1;
         private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker2;
-        private Guna.UI.WinForms.GunaComboBox gunaComboBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label3;
