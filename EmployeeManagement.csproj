@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{6E76ADD7-6C4E-42F3-9209-8CA060DD4445}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>EmployeeManagement</RootNamespace>
-    <AssemblyName>EmployeeManagement</AssemblyName>
+    <RootNamespace>E.M.S</RootNamespace>
+    <AssemblyName>E.M.S</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,13 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Guna.UI">
-      <HintPath>..\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -51,18 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Department.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Department.Designer.cs">
-      <DependentUpon>Department.cs</DependentUpon>
-    </Compile>
-    <Compile Include="EmployeeManagement2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include=".Designer.cs">
-      <DependentUpon>EmployeeManagement2.cs</DependentUpon>
-      <SubType>Form</SubType>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
@@ -71,19 +59,9 @@
       <DependentUpon>login.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="ProgramBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Salary.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Salary.Designer.cs">
-      <DependentUpon>Salary.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="Department.resx">
-      <DependentUpon>Department.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EmployeeManagement2.resx">
-      <DependentUpon>EmployeeManagement2.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
@@ -96,11 +74,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Salary.resx">
-      <DependentUpon>Salary.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
