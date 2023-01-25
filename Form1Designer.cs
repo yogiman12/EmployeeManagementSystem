@@ -125,10 +125,8 @@ namespace E.M.S
             this.label5.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label5.Location = new System.Drawing.Point(39, 525);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(177, 28);
             this.label5.Size = new System.Drawing.Size(241, 28);
             this.label5.TabIndex = 11;
-            this.label5.Text = "Employee Name";
             this.label5.Text = "Employee Department";
             // 
             // textBox3
@@ -147,8 +145,10 @@ namespace E.M.S
             this.label6.Location = new System.Drawing.Point(37, 656);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(177, 28);
+            this.label6.Size = new System.Drawing.Size(146, 28);
             this.label6.TabIndex = 13;
             this.label6.Text = "Employee Name";
+            this.label6.Text = "Date of Birth";
             // 
             // textBox4
             // 
