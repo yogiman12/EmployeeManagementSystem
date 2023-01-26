@@ -1,4 +1,4 @@
-﻿namespace E.M.S
+namespace E.M.S
 {
     partial class Department
     {
