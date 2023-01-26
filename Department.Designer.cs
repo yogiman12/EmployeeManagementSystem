@@ -90,6 +90,7 @@ namespace E.M.S
             this.label2.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label2.Location = new System.Drawing.Point(566, 146);
+            this.label2.Location = new System.Drawing.Point(661, 335);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(267, 36);
             this.label2.TabIndex = 26;
@@ -136,8 +137,8 @@ namespace E.M.S
             this.label4.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label4.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label4.Location = new System.Drawing.Point(606, 513);
             this.label4.Location = new System.Drawing.Point(733, 354);
+            this.label4.Location = new System.Drawing.Point(881, 434);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(179, 28);
             this.label4.TabIndex = 43;
