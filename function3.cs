@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -58,3 +58,13 @@ namespace EmployeeMgmt1
         DepCb.ValueMember = Con.GetData(Query).Columns["Depid"].ToString();
         DepCb.DataSource = Con.GetData(Query);
         }
+    private void AddBtn_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            if (EmpNameTb.Text == "" || GenCb.SelectedIndex == -1 || DepCb.SelectedIndex == -1 || DailySalTb.Text == "")
+            {
+                MessageBox.Show("missing data!!!");
+            }
+            else
+            {
