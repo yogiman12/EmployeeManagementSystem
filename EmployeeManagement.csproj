@@ -64,6 +64,7 @@
       <DependentUpon>EmployeeManagement2.cs</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="fucntion.cs" />
     <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
