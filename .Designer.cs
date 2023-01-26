@@ -1,4 +1,4 @@
-namespace E.M.S
+﻿namespace E.M.S
 {
     partial class Form1
     {
@@ -6,7 +6,6 @@ namespace E.M.S
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
@@ -19,9 +18,7 @@ namespace E.M.S
             }
             base.Dispose(disposing);
         }
-
         #region Windows Form Designer generated code
-
         /// <summary>
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
@@ -53,6 +50,7 @@ namespace E.M.S
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -84,7 +82,6 @@ namespace E.M.S
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label2.Location = new System.Drawing.Point(566, 150);
             this.label2.Location = new System.Drawing.Point(698, 226);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(239, 36);
@@ -304,7 +301,6 @@ namespace E.M.S
             this.label9.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label9.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label9.Location = new System.Drawing.Point(1251, 361);
             this.label9.Location = new System.Drawing.Point(1274, 162);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(82, 28);
@@ -317,7 +313,6 @@ namespace E.M.S
             this.label10.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label10.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label10.Location = new System.Drawing.Point(1034, 361);
             this.label10.Location = new System.Drawing.Point(1057, 162);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(74, 28);
@@ -330,7 +325,6 @@ namespace E.M.S
             this.label11.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label11.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label11.Location = new System.Drawing.Point(790, 361);
             this.label11.Location = new System.Drawing.Point(813, 162);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(135, 28);
@@ -343,7 +337,6 @@ namespace E.M.S
             this.label12.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label12.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label12.Location = new System.Drawing.Point(567, 361);
             this.label12.Location = new System.Drawing.Point(590, 162);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(111, 28);
@@ -353,7 +346,6 @@ namespace E.M.S
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(513, 344);
             this.pictureBox2.Location = new System.Drawing.Point(536, 145);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(48, 45);
@@ -361,12 +353,26 @@ namespace E.M.S
             this.pictureBox2.TabIndex = 49;
             this.pictureBox2.TabStop = false;
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.IndianRed;
+            this.button3.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.button3.Location = new System.Drawing.Point(739, 973);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 3, 3, 10);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(109, 47);
+            this.button3.TabIndex = 54;
+            this.button3.Text = "remove";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1412, 1055);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label11);
@@ -402,11 +408,8 @@ namespace E.M.S
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
-
         #endregion
-
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -431,5 +434,6 @@ namespace E.M.S
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button button3;
     }
 }
