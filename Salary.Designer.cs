@@ -223,10 +223,8 @@
             this.label4.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label4.Location = new System.Drawing.Point(86, 434);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(202, 28);
             this.label4.Size = new System.Drawing.Size(134, 28);
             this.label4.TabIndex = 30;
-            this.label4.Text = "Employee Gender ";
             this.label4.Text = "Days attend";
             // 
             // label3
