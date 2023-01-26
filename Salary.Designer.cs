@@ -296,7 +296,6 @@
             this.label10.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label10.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label10.Location = new System.Drawing.Point(604, 144);
             this.label10.Location = new System.Drawing.Point(617, 144);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(111, 28);
@@ -307,6 +306,7 @@
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(550, 127);
+            this.pictureBox2.Location = new System.Drawing.Point(550, 144);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(48, 45);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
