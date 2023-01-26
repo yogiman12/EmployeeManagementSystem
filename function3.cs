@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -85,7 +85,6 @@ namespace EmployeeMgmt1
                 DepCb.SelectedIndex = -1;
             }
         }
-         }
         catch (Exception Ex)
         {
             MessageBox.Show(Ex.Message);
