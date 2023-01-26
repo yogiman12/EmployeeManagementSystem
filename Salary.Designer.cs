@@ -6,7 +6,6 @@
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
@@ -19,9 +18,7 @@
             }
             base.Dispose(disposing);
         }
-
         #region Windows Form Designer generated code
-
         /// <summary>
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
@@ -59,7 +56,7 @@
             this.button2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.button2.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.button2.Location = new System.Drawing.Point(227, 968);
+            this.button2.Location = new System.Drawing.Point(228, 827);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 3, 3, 10);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(92, 47);
@@ -72,7 +69,7 @@
             this.button1.BackColor = System.Drawing.SystemColors.HighlightText;
             this.button1.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.button1.Location = new System.Drawing.Point(91, 968);
+            this.button1.Location = new System.Drawing.Point(92, 827);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 3, 3, 10);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(101, 47);
@@ -194,7 +191,6 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label2.Location = new System.Drawing.Point(718, 234);
             this.label2.Location = new System.Drawing.Point(740, 231);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(194, 36);
@@ -318,7 +314,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 35F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1500, 985);
+            this.ClientSize = new System.Drawing.Size(1500, 1013);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label9);
@@ -350,11 +346,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
-
         #endregion
-
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker1;
