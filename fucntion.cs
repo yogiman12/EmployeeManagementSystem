@@ -7,6 +7,11 @@ using System.Threading.Tasks;
 namespace EmployeeManagement
 {
     internal class fucntion
+    internal class Fucntion
     {
+        public Fucntion()
+        {
+
+        }
     }
 }
