@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 namespace EmployeeMgmt1
 {
-public partial class Employees : Form
+    public partial class Employees : Form
     {
         Functions Con;
         public Employees()
@@ -18,5 +18,17 @@ public partial class Employees : Form
             Con = new Functions();
             ShowEmp();
             GetDepartment();
+        }
+        private void ShowEmp()
+        {
+            try
+            {
+                string Query = "Select * from EmployeeTb1";
+                EmployeeList.DataSource = Con.GetData(Query);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
         
