@@ -1,4 +1,4 @@
-﻿namespace E.M.S
+﻿﻿namespace E.M.S
 {
     partial class login
     {
@@ -175,7 +175,7 @@
             this.label5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label5.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label5.Location = new System.Drawing.Point(62, 227);
+            this.label5.Location = new System.Drawing.Point(61, 221);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(98, 36);
             this.label5.TabIndex = 3;
