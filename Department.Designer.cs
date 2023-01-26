@@ -1,3 +1,4 @@
+
 ﻿namespace E.M.S
 {
     partial class Department
@@ -206,7 +207,7 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.button3.BackColor = System.Drawing.Color.IndianRed;
             this.button3.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.Highlight;
             this.button3.Location = new System.Drawing.Point(127, 602);
