@@ -1,4 +1,4 @@
-﻿namespace E.M.S
+namespace E.M.S
 {
     partial class Department
     {
@@ -83,7 +83,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(45, 399);
+            this.textBox1.Location = new System.Drawing.Point(47, 407);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(292, 34);
             this.textBox1.TabIndex = 28;
