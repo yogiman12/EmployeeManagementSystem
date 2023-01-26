@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -100,3 +100,20 @@ namespace EmployeeMgmt1
             }
             else
             {
+                string Name = EmpNameTb.Text;
+                string Gender = GenCb.SelectedItem.ToString();
+                int Dep = Convert.ToInt32(DepCb.SelectedValue.ToString());
+                string DOB = DOBTb.Value.ToString();
+                string JDate = JDateTb.Value.ToString();
+                int Salary = Convert.ToInt32(DailySalTb.Text);
+                string Query = "Delete from EmployeeTb1 where Empid= {0}";
+                Query = string.Format(Query, key);
+                Con.SetData(Query);
+                ShowEmp();
+                MessageBox.Show("Emoloyee Deleted!!!");
+                EmpNameTb.Text = "";
+                DailySalTb.Text = "";
+                GenCb.SelectedIndex = -1;
+                DepCb.SelectedIndex = -1;
+            }
+        }
