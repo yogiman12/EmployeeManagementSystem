@@ -1,4 +1,4 @@
-﻿namespace E.M.S
+﻿﻿namespace E.M.S
 {
     partial class login
     {
@@ -132,7 +132,7 @@
             this.button2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.button2.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.button2.Location = new System.Drawing.Point(465, 443);
+            this.button2.Location = new System.Drawing.Point(476, 443);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(97, 36);
             this.button2.TabIndex = 8;
