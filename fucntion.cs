@@ -8,14 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace EmployeeManagement
 namespace EmployeeMgmt1
 {
-    internal class Fucntion
+    public partial class Departments : Form
     {
-        public Fucntion()
+        Functions Con;
+        public Departments()
         {
-
+            InitializeComponent();
+            Con = new Functions();
+            ShowDepartments();
         }
-    }
-}
+        private void ShowDepartments()
+        {
+            string Query = "Select * from DepartmentTb1";
+            DepList.DataSource = Con.GetData(Query);
+        }
