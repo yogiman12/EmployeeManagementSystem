@@ -85,6 +85,7 @@ namespace E.M.S
             this.label2.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label2.Location = new System.Drawing.Point(566, 150);
+            this.label2.Location = new System.Drawing.Point(698, 226);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(239, 36);
             this.label2.TabIndex = 1;
@@ -304,6 +305,7 @@ namespace E.M.S
             this.label9.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label9.Location = new System.Drawing.Point(1251, 361);
+            this.label9.Location = new System.Drawing.Point(1274, 162);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(82, 28);
             this.label9.TabIndex = 53;
@@ -316,6 +318,7 @@ namespace E.M.S
             this.label10.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label10.Location = new System.Drawing.Point(1034, 361);
+            this.label10.Location = new System.Drawing.Point(1057, 162);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(74, 28);
             this.label10.TabIndex = 52;
@@ -328,6 +331,7 @@ namespace E.M.S
             this.label11.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label11.Location = new System.Drawing.Point(790, 361);
+            this.label11.Location = new System.Drawing.Point(813, 162);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(135, 28);
             this.label11.TabIndex = 51;
@@ -340,6 +344,7 @@ namespace E.M.S
             this.label12.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label12.Location = new System.Drawing.Point(567, 361);
+            this.label12.Location = new System.Drawing.Point(590, 162);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(111, 28);
             this.label12.TabIndex = 50;
@@ -349,6 +354,7 @@ namespace E.M.S
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(513, 344);
+            this.pictureBox2.Location = new System.Drawing.Point(536, 145);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(48, 45);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
