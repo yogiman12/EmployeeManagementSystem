@@ -8,25 +8,22 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace E.M.S
 namespace EmployeeMgmt1
+namespace E.M.S
 {
-    public partial class Department : Form
     public partial class Departments : Form
+    public partial class Department : Form
     {
-        public Department()
         Functions Con;
         public Departments()
+        public Department()
         {
             InitializeComponent();
             Con = new Functions();
             ShowDepartments();
         }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
         private void ShowDepartments()
         {
-
             string Query = "Select * from DepartmentTb1";
             DepList.DataSource = Con.GetData(Query);
         }
@@ -68,8 +65,8 @@ namespace EmployeeMgmt1
             }
         }
 
-        private void Department_Load(object sender, EventArgs e)
         private void EditBtn_Click(object sender, EventArgs e)
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
             try
             {
@@ -119,10 +116,13 @@ namespace EmployeeMgmt1
             }
         }
         private void EmpLbl_Click(object sender, EventArgs e)
+
+        private void Department_Load(object sender, EventArgs e)
         {
             Employees obj = new Employees();
             obj.Show();
             this.Hide();
+
         }
     }
 }
