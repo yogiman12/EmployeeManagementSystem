@@ -109,7 +109,6 @@
             this.gunaDateTimePicker1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaDateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaDateTimePicker1.ForeColor = System.Drawing.Color.Black;
-            this.gunaDateTimePicker1.Location = new System.Drawing.Point(89, 592);
             this.gunaDateTimePicker1.Location = new System.Drawing.Point(85, 582);
             this.gunaDateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.gunaDateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
@@ -135,6 +134,7 @@
             this.gunaComboBox1.ForeColor = System.Drawing.Color.Black;
             this.gunaComboBox1.FormattingEnabled = true;
             this.gunaComboBox1.Location = new System.Drawing.Point(478, 680);
+            this.gunaComboBox1.Location = new System.Drawing.Point(679, 581);
             this.gunaComboBox1.Name = "gunaComboBox1";
             this.gunaComboBox1.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaComboBox1.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -147,7 +147,6 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.comboBox1.Location = new System.Drawing.Point(91, 483);
             this.comboBox1.Location = new System.Drawing.Point(85, 481);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(290, 43);
@@ -156,7 +155,6 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(134, 205);
             this.pictureBox1.Location = new System.Drawing.Point(135, 186);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(141, 98);
@@ -189,13 +187,10 @@
             this.label6.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label6.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label6.Location = new System.Drawing.Point(84, 635);
             this.label6.Location = new System.Drawing.Point(86, 642);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(146, 28);
             this.label6.Size = new System.Drawing.Size(159, 28);
             this.label6.TabIndex = 32;
-            this.label6.Text = "Date of Birth";
             this.label6.Text = "Salary amount";
             // 
             // label5
@@ -204,7 +199,6 @@
             this.label5.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label5.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label5.Location = new System.Drawing.Point(82, 543);
             this.label5.Location = new System.Drawing.Point(80, 541);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(78, 28);
@@ -217,7 +211,6 @@
             this.label4.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label4.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label4.Location = new System.Drawing.Point(86, 434);
             this.label4.Location = new System.Drawing.Point(80, 434);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(134, 28);
