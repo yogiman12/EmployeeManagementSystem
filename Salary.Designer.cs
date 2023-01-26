@@ -236,8 +236,10 @@
             this.label3.Location = new System.Drawing.Point(86, 319);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(177, 28);
+            this.label3.Size = new System.Drawing.Size(111, 28);
             this.label3.TabIndex = 29;
             this.label3.Text = "Employee Name";
+            this.label3.Text = "Employee";
             // 
             // textBox1
             // 
@@ -286,8 +288,10 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.panel1.Location = new System.Drawing.Point(27, -30);
+            this.panel1.Location = new System.Drawing.Point(-39, -30);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1447, 147);
+            this.panel1.Size = new System.Drawing.Size(1513, 147);
             this.panel1.TabIndex = 25;
             // 
             // Salary
@@ -316,7 +320,6 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Salary";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
