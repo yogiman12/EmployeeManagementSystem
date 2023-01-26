@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -51,4 +51,10 @@ namespace EmployeeMgmt1
         { private void GetDepartment()
         private void Employees_Load(object sender, EventArgs e)
         {
+        }
+         {
+            string Query = "Select * from DepartmentTb1";
+        DepCb.DisplayMember = Con.GetData(Query).Columns["Depname"].ToString();
+        DepCb.ValueMember = Con.GetData(Query).Columns["Depid"].ToString();
+        DepCb.DataSource = Con.GetData(Query);
         }
