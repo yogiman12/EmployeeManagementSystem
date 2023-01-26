@@ -358,7 +358,7 @@
             this.button3.BackColor = System.Drawing.Color.IndianRed;
             this.button3.Font = new System.Drawing.Font("Trebuchet MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.button3.Location = new System.Drawing.Point(739, 973);
+            this.button3.Location = new System.Drawing.Point(659, 895);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 3, 3, 10);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(109, 47);
