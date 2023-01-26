@@ -87,8 +87,27 @@ namespace EmployeeMgmt1
             }
         }
 
-
         private void DeleteBtn_Click(object sender, EventArgs e)
         {
             try
             {
+                if (DepNameTb.Text == "")
+                {
+                    MessageBox.Show("missing data!!!");
+                }
+                else
+                {
+                    string Dep = DepNameTb.Text;
+                    string Query = "Delete from DepartmentTb1 where Depid = {0}";
+                    Query = string.Format(Query, key);
+                    Con.SetData(Query);
+                    ShowDepartments();
+                    MessageBox.Show("Department Deleted!!!");
+                    DepNameTb.Text = "";
+                }
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
+        }
