@@ -1,4 +1,4 @@
-namespace E.M.S
+﻿namespace E.M.S
 {
     partial class Department
     {
@@ -6,7 +6,6 @@ namespace E.M.S
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
@@ -19,9 +18,7 @@ namespace E.M.S
             }
             base.Dispose(disposing);
         }
-
         #region Windows Form Designer generated code
-
         /// <summary>
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
@@ -215,9 +212,9 @@ namespace E.M.S
             this.button3.Location = new System.Drawing.Point(127, 602);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 3, 3, 10);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(92, 47);
+            this.button3.Size = new System.Drawing.Size(109, 47);
             this.button3.TabIndex = 49;
-            this.button3.Text = "Update";
+            this.button3.Text = "remove";
             this.button3.UseVisualStyleBackColor = false;
             // 
             // Department
@@ -245,7 +242,6 @@ namespace E.M.S
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.Name = "Department";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Department";
             this.Text = "f";
             this.Load += new System.EventHandler(this.Department_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -254,9 +250,7 @@ namespace E.M.S
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
-
         #endregion
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
